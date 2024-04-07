@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("lock.jpg");
+        }
+        header{
+            background-color: black;
+            color: white;
+            display: inline-block;
+            text-align: right;
+            width: 1365px;
+            height: 50px;
+        }
+        .conatainer{
+            background-color: black;
+            color: white;
+            justify-items: center;
+            width: 1000px;
+            height: 500px;
+            
+        }
+        .box1{
+            background-color: black;
+             color: white;
+            width: 100px;
+            height: 100px;
+            margin: 100px;
+            padding: 100px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+     <div class="container">
+        <div class="box1">
+            <label for="uname">USERNAME</label>
+            <input type="text" placeholder="enter username" name="uname" required>
+            <label for="psw">PASSWORD</label>
+            <input type="text" placeholder="enter password" name="psw" required>
+            <button type="submit">LOGIN</button>
+            <label><input type="checkbox" checked="checked" name="remember">remember me </label>
+          </div>
+    </div>
+</body>
+</html>
